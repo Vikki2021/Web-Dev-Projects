@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+/* Header Section */
+#header-section {
+    height: 100vh;
+    width: 100%;
+    background-image: radial-gradient(rgba(68, 62, 246, 0.5), rgba(245, 212, 79, 0.5)), url("../image/zymbg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+#hcontent {
+    font-size: 20px;
+    color: rgb(17, 17, 17);
+    line-height: 20px;
+}
+
+.logoimg {
+    width: 60px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 50px;
+}
+
+.nav-bar {
+    background-color: black;
+    padding: 5px;
+    display: flex;
+    align-items:center;
+}
+
+.nav-bar ul li {
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    justify-content: space-around;
+    font-size: 18px;
+    padding-right: 30px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 200;
+}
+
+.search-bar {
+    display: inline;
+    justify-content: space-around;
+}
+
+.search-btn {
+    color: #000;
+    border:black;
+    border-radius: 10px;
+    margin-right:10px ;
+    padding: 10px 10px ;
+    text-align: center;
+    font-size: 16px;
+    display: inline-flex;
+
+}
+
+.content {
+    margin-top: 150px;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    transition: color 4s linear 0.5s ;
+    animation: fitness 10s linear 2s infinite ;
+}
+
+.nav-bar:hover {
+    background :linear-gradient(rgb(250, 101, 8),rgb(245, 216, 32));
+    transition: 0.5s;
+}
+
+.nav-bar ul li a:hover {
+    color: #000;
+    cursor: pointer;
+   font-weight: 200;
+}
+
+.content:hover {
+    color:rgb(6, 6, 6) ;
+    cursor: alias;
+}
+
+
+@keyframes fitness {
+    from {
+            text-shadow: 2px 2px 10px rgb(245, 20, 20);
+        }
+    
+        to {
+            text-shadow: 2px 2px 10px rgb(204, 255, 0);
+        }
+       
+    }
+
+
+
+
+
+/* equipment section */
+#equipment-section {
+    height: 100vh;
+    width: 100%;
+    background-image: radial-gradient(rgba(239, 73, 8, 0.5), rgba(247, 204, 32, 0.951));
+    background-size: cover;
+    background-position: center;
+}
+
+.equipment {
+    margin: 2px 10px 10px 20px;
+    padding: 20px;
+}
+
+.equip-img {
+    border: 2px solid black;
+    margin: 30px;
+    padding: 5px;
+    width: 20vw;
+    height: 30vh;
+    border-radius: 10px;
+    display: inline-flex;
+}
+
+.euip-content {
+    color: #fff;
+    font: 32px sens-serif;
+}
+
+.equipment ul li {
+list-style-type: square;
+color: #fff;
+
+}
